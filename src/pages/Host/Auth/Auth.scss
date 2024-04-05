@@ -1,0 +1,126 @@
+.host-auth {
+    /* Post button */
+    /* Floating add button */
+    /* Add new post tooltip */
+    /* Post border thicker */
+    /* Post title */
+    .landing {
+        position: relative;
+        background: url('http://localhost:3000/host-login.jpg') no-repeat center center/cover;
+        width: 100%;
+        height: 100%;
+    }
+    .landing-login {
+        position: relative;
+        background: url('http://localhost:3000/host-login.jpg') no-repeat center center/cover;
+        height: 100vh;
+    }
+    .dark-overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100%;
+    }
+    .landing-inner {
+        height: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        h1 {
+            color: white;
+        }
+        h4 {
+            color: white;
+        }
+        p {
+            color: white;
+        }
+    }
+    .spinner-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
+    .post-button {
+        padding-top: 0;
+        background: transparent;
+        border: none;
+        &:hover {
+            background: transparent;
+        }
+    }
+    a.post-button.btn {
+        &:focus {
+            outline: none;
+            background: transparent;
+            border: none;
+            box-shadow: none;
+        }
+        &:active {
+            outline: none;
+            background: transparent;
+            border: none;
+            box-shadow: none;
+        }
+    }
+    button.post-button.btn {
+        &:focus {
+            outline: none;
+            background: transparent;
+            border: none;
+            box-shadow: none;
+        }
+        &:active {
+            outline: none;
+            background: transparent;
+            border: none;
+            box-shadow: none;
+        }
+    }
+    .btn-floating {
+        position: fixed;
+        right: 3rem;
+        bottom: 3rem;
+        background: transparent;
+        border: none;
+        &:hover {
+            background: transparent;
+        }
+        &:focus {
+            outline: none;
+            background: transparent;
+            border: none;
+            box-shadow: none;
+        }
+        &:active {
+            outline: none;
+            background: transparent;
+            border: none;
+            box-shadow: none;
+        }
+    }
+    .tooltip {
+        background: transparent;
+        .arrow {
+            &::before {
+                border-left-color: #78c2ad;
+            }
+        }
+    }
+    .tooltip-inner {
+        background: #78c2ad;
+    }
+    .border-success {
+        border-width: 2px;
+    }
+    .border-warning {
+        border-width: 2px;
+    }
+    .border-danger {
+        border-width: 2px;
+    }
+    .post-title {
+        margin-bottom: 0.5rem;
+    }
+}
